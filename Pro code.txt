@@ -1,5 +1,3 @@
-Pro code:
-
 Cryptography:
 
 def generate_key() -> bytes:
@@ -99,4 +97,5 @@ mse = np.mean((arr_a - arr_b) ** 2)
 if mse == 0:
 return float('inf')
 psnr = 20 * math.log10(255.0 / math.sqrt(mse))
+
 return psnr
